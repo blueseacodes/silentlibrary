@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annual Used Book Fair - Silent Library</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" xintegrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f8f9fa; /* Light background */
+        }
+        main {
+            flex: 1;
+        }
+        .navbar-brand, .nav-link {
+            font-weight: 500;
+        }
+        .detail-img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 0.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+        }
+    </style>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main class="container my-5">
+        <section class="bg-white p-5 rounded-3 shadow-sm">
+            <a href="events.html" class="btn btn-outline-secondary btn-sm mb-4">← Back to Promotions</a>
+            <h2 class="text-center mb-4 text-dark fw-bold">Annual Used Book Fair</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <img src="assets/promo2.jpg" class="detail-img d-block mx-auto" alt="People Browse through books at a fair">
+                    <p class="lead text-center text-muted mb-4">
+                        Our highly anticipated Annual Used Book Fair is back! Discover hidden gems, classic reads, and popular fiction at unbeatable prices.
+                    </p>
+                    <hr class="my-4">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Dates:</strong> 20 August - 22 August 2025</p>
+                            <p class="mb-1"><strong>Time:</strong> 10:00 AM - 6:00 PM Daily</p>
+                            <p class="mb-1"><strong>Location:</strong> Silent Library Auditorium (Ground Floor)</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="mb-1"><strong>Categories:</strong> Fiction, Non-Fiction, Children's, Cookbooks, and more!</p>
+                            <p class="mb-1"><strong>Payment:</strong> Cash and card accepted.</p>
+                            <p class="mb-1"><strong>Support:</strong> All proceeds go towards supporting library programs and services.</p>
+                        </div>
+                    </div>
+                    <hr class="my-4">
+                    <p class="text-secondary">
+                        Come and browse through thousands of pre-loved books donated by our generous community. It's a fantastic opportunity to refresh your home library while contributing to a great cause. We look forward to seeing you there!
+                    </p>
+                    <p class="text-center mt-4">
+                        <a href="#" class="btn btn-primary btn-lg shadow-sm">Add to Calendar</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" xintegrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        $(function() {
+            $("#header-placeholder").load("header.html");
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
+</body>
+</html>
